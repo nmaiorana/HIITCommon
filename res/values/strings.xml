@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- License checking status messages -->
+    <string name="dont_allow">You are not licensed to use this product!</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="exit_button">Exit</string>
+
+    <!-- lite dialog messages -->
+    <string name="lite_dialog_title">Version</string>
+    <string name="lite_dialog_body">This is the lite version of the full application.
+		The full application offers many more workouts and features. Please
+		purchase the full version from the Android Market.</string>
+    <string name="no_thanks_button">No Thanks</string>
+    <string name="texttospeech">Text-To-Speech</string>
+    <string name="description">The HIIT Treadmill Assistant has predefined HIIT
+		treadmill workouts. Just select your sprint speed, your interval time
+		and the intensity of your workout. The software will tell you what to
+		do. You can even play your favorite music as you workout!</string>
+    <string name="dislaimer">When you use the HIIT Treadmill Assistant software,
+		you agree to indemnify and hold harmless Audible Android Products for
+		any loss, liability, claim, damage, and expenses (including reasonable
+		attorneys\' fees) arising from or in connection with your use of the
+		HIIT Treadmill Assitant fitness software application.\nDo you Agree to
+		these terms?</string>
+    <string name="must_accept_disclaimer">You must accept the disclaimer agreement befor
+		using HIIT Treadmill Assistant</string>
+    <string name="app_name">HIIT Treadmill Assistant</string>
+    <string name="app_main_menu">HIIT Treadmill Assistant Main Menu</string>
+
+    <!-- Will be part of the menu display -->
+    <string name="introduction">The HIIT Assistant will setup a treadmill work out
+		for you using the sprint speed you select and the intesity (number of
+		intervals and rest length) you choose.</string>
+    <string name="start_training">Start</string>
+
+    <!-- User Setup Strings -->
+    <string name="workout_settings_title">Workout Settings</string>
+    <string name="warmup_type_selection_menu">Select a Warm Up</string>
+    <string name="intervals_selection_menu">Select Number of Intervals</string>
+    <string name="sprint_interval_time_selection_menu">Select a Sprint Duration</string>
+    <string name="sprint_speed_menu">Select a Sprint Speed</string>
+    <string name="rest_interval_time_selection_menu">Select a Rest Duration</string>
+    <string name="rest_speed_menu">Select a Rest Speed</string>
+    <string name="cooldown_type_selection_menu">Select a Cool Down</string>
+    <string name="music_integration">Music Integration:</string>
+
+    <!-- Workout Session -->
+    <string name="workout_session_title">Workout</string>
+    <string name="start_workout_button">Start Workout Session</string>
+    <string name="end_workout">End Workout</string>
+    <string name="pause_workout">Pause Workout</string>
+    <string name="resume_workout">Resume Workout</string>
+    <string name="workout_ended">Your workout has ended. Congratulations!</string>
+    <string name="workout_terminated">Leaving workout.</string>
+
+    <!-- Chronometer -->
+    <string name="chronometer_set_format">Set format string</string>
+    <string name="chronometer_clear_format">Clear format string</string>
+    <string name="chronometer_interval_format">		Interval Time:<xliff:g id="initial-format">%s</xliff:g></string>
+    <string name="chronometer_workout_format">		Workout Time:<xliff:g id="initial-format">%s</xliff:g></string>
+    <string name="hiit_workout_service_started">The HIIT Workout service has started running</string>
+    <string name="hiit_workout_service_finished">The HIIT Workout service has finished running</string>
+    <string name="menu_intervals">Intervals</string>
+    <string name="menu_progressive">Progressive</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="SpinnerText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrllvwNo1"
+    style="@style/ButtonText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" >
+
+        <Button
+            android:id="@+id/start_workout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_green"
+            style="@style/ButtonText"
+            android:padding="20dip"
+            android:text="@string/start_workout_button" />
+
+        <Spinner
+            android:id="@+id/warmup_selection"
+            style="@style/SpinnerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_ltblue"
+            android:entries="@array/warmup_types"
+            android:prompt="@string/warmup_type_selection_menu" >
+
+            </Spinner>
+
+        <Spinner
+            android:id="@+id/intervals_selection"
+            style="@style/SpinnerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_ltblue"
+            android:entries="@array/numberOfIntervals"
+            android:prompt="@string/intervals_selection_menu" />
+
+        <Spinner
+            android:id="@+id/sprint_interval_time_selection"
+            style="@style/SpinnerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_ltblue"
+            android:entries="@array/sprint_interval_times"
+            android:prompt="@string/sprint_interval_time_selection_menu" />
+
+        <Spinner
+            android:id="@+id/sprint_speed_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/sprintSpeed"
+            android:prompt="@string/sprint_speed_menu"
+            android:background="@drawable/btn_ltblue"
+            style="@style/SpinnerText" />
+
+        <Spinner
+            android:id="@+id/rest_interval_time_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/rest_interval_times"
+            android:prompt="@string/rest_interval_time_selection_menu"
+            android:background="@drawable/btn_ltblue"
+            style="@style/SpinnerText" />
+
+        <Spinner
+            android:id="@+id/rest_speed_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/restSpeed"
+            android:prompt="@string/rest_speed_menu"
+            android:background="@drawable/btn_ltblue"
+            style="@style/SpinnerText" />
+
+        <Spinner
+            android:id="@+id/cooldown_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cooldown_types"
+            android:prompt="@string/cooldown_type_selection_menu"
+            android:background="@drawable/btn_ltblue"
+            style="@style/SpinnerText" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/music_integration" />
+
+        <Spinner
+            android:id="@+id/playlist_selection"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/playlists"
+            android:prompt="@string/music_integration"
+            android:background="@drawable/btn_ltblue"
+            style="@style/SpinnerText" />
+    </LinearLayout>
+
+</ScrollView>

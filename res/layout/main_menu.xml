@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_gravity="center_vertical"
+	android:orientation="vertical" android:layout_height="wrap_content"
+	android:background="@drawable/treadmilldash1">
+	<Button android:layout_marginRight="10dp" android:id="@+id/menu_interval_button"
+		android:layout_weight="1" android:layout_height="0dp"
+		android:text="@string/menu_intervals" android:layout_width="match_parent"
+		android:layout_marginLeft="10dp" android:soundEffectsEnabled="true"></Button>
+	<Button android:layout_marginRight="10dp" android:layout_weight="1"
+		android:layout_height="0dp" android:layout_width="match_parent"
+		android:layout_marginLeft="10dp" android:soundEffectsEnabled="true"
+		android:id="@+id/menu_progressive_button" android:text="@string/menu_progressive"></Button>
+
+</LinearLayout>

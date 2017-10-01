@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+		Copyright (C) 2007 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+-->
+
+<resources>
+
+    <!-- Used in View/UserConfiguration.java -->
+    <string-array name="numberOfIntervals">
+        <item>4 Intervals</item>
+        <item>5 Intervals</item>
+        <item>6 Intervals</item>
+        <item>7 Intervals</item>
+        <item>8 Intervals</item>
+        <item>9 Intervals</item>
+        <item>10 Intervals</item>
+        <item>11 Intervals</item>
+        <item>12 Intervals</item>
+        <item>13 Intervals</item>
+        <item>14 Intervals</item>
+        <item>15 Intervals</item>
+    </string-array>
+
+    <integer-array name="numberOfIntervalsValue">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
+
+    <string-array name="sprintSpeed">
+        <item>Sprint at 5 MPH</item>
+        <item>Sprint at 6 MPH</item>
+        <item>Sprint at 7 MPH</item>
+        <item>Sprint at 8 MPH</item>
+        <item>Sprint at 9 MPH</item>
+    </string-array>
+
+    <integer-array name="sprintSpeedValue">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+
+    <string-array name="restSpeed">
+        <item>Rest at 3 MPH</item>
+        <item>Rest at 4 MPH</item>
+        <item>Rest at 5 MPH</item>
+    </string-array>
+
+    <integer-array name="restSpeedValue">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="sprint_interval_times">
+        <item>30 Second Sprint</item>
+        <item>60 Second Sprint</item>
+        <item>90 Second Sprint</item>
+        <item>120 Second Sprint</item>
+    </string-array>
+
+    <integer-array name="sprint_interval_times_value">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </integer-array>
+
+    <string-array name="rest_interval_times">
+        <item>30 Second Rest</item>
+        <item>60 Second Rest</item>
+        <item>90 Second Rest</item>
+        <item>120 Second Rest</item>
+    </string-array>
+
+    <integer-array name="rest_interval_times_value">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </integer-array>
+
+    <string-array name="warmup_types">
+        <item>No Warm Up</item>
+        <item>Quick Warm Up</item>
+        <item>Standard Warm Up</item>
+    </string-array>
+    
+    <string-array name="cooldown_types">
+        <item>No Cool Down</item>
+        <item>Quick Cool Down</item>
+        <item>Standard Cool Down</item>
+    </string-array>
+    
+    <string-array name="playlists">
+        <item>None</item>
+    </string-array>
+    
+    <string-array name="no_yes">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+</resources>
